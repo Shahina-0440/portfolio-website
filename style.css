@@ -23,6 +23,16 @@ nav{
 }
 .logo{
     width:140px;
+    animation:sliding 0.6s;
+    position:relative;
+}
+@keyframes sliding{
+    from{
+        transform:rotateX(0deg);
+    }
+    to{
+        transform:rotateX(360deg);
+    }
 }
 .logo span{
     color:#ff004f;
